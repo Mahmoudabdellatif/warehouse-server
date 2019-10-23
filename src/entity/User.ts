@@ -7,10 +7,19 @@ export class User {
     id: number;
 
     @Column()
+    email: string;
+
+    @Column()
     userName: string;
 
     @Column()
-    name: string;
+    firstName: string;
+
+    @Column()
+    lastName: string;
+
+    @Column()
+    age: number;
 
     @Column()
     createdAt: Date;
